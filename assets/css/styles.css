@@ -212,3 +212,47 @@ body {
 		grid-row: 10 / 11;
 	}
 }
+
+
+/* Blue room theme */
+:root {
+	--red: #b86b7c;
+	--yellow: #cfe4ff;
+	--green: #6d77d8;
+}
+
+body {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.title {
+	color: #cfe4ff !important;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-weight: 400;
+	text-shadow: 0 0 18px rgba(35, 91, 255, 0.72);
+}
+
+.line {
+	color: #f3f7ff !important;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 700;
+	text-shadow: 0 0 12px rgba(35, 91, 255, 0.55);
+	text-transform: none;
+}
+
+.line-2 {
+	color: #7aa8ff !important;
+}
+
+.line-4 {
+	color: #8a91e6 !important;
+}
+
+.line-5 {
+	color: #b86b7c !important;
+}
+
+.line-6 {
+	color: #cfe4ff !important;
+}
