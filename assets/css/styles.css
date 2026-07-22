@@ -256,3 +256,26 @@ body {
 .line-6 {
 	color: #cfe4ff !important;
 }
+
+
+/* Small interaction prompt */
+.line-6 {
+	grid-column: 7 / 9;
+	align-self: end;
+	justify-content: flex-end;
+	font-size: clamp(0.72rem, 1.05vw, 0.95rem) !important;
+	font-weight: 400;
+	color: rgba(207, 228, 255, 0.78) !important;
+	background: rgba(5, 5, 8, 0.28);
+	border-color: rgba(207, 228, 255, 0.16);
+	text-shadow: 0 0 8px rgba(35, 91, 255, 0.42);
+}
+
+@media (max-width: 720px) {
+	.line-6 {
+		align-self: end;
+		justify-content: flex-end;
+		font-size: clamp(0.78rem, 4.5vw, 1.1rem) !important;
+		min-height: 3rem;
+	}
+}
